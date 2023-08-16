@@ -1,0 +1,67 @@
+/* CSS for College Predictor component */
+.college-predictor {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.college-predictor h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.college-predictor label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.college-predictor select,
+.college-predictor input[type="number"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.college-predictor button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.college-predictor button:hover {
+  background-color: #0069d9;
+}
+
+.college-predictor table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.college-predictor th,
+.college-predictor td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.college-predictor th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.college-predictor tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

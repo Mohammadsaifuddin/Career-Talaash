@@ -1,0 +1,58 @@
+.college-predictor {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.college-predictor__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.college-predictor__form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.college-predictor__label {
+  margin-bottom: 10px;
+}
+
+.college-predictor__input {
+  width: 100%;
+  padding: 5px;
+}
+
+.college-predictor__button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.college-predictor__button:hover {
+  background-color: #0056b3;
+}
+
+.college-predictor__predictions {
+  margin-top: 20px;
+}
+
+.college-predictor__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.college-predictor__table th,
+.college-predictor__table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.college-predictor__table th {
+  font-weight: bold;
+}
